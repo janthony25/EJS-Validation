@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LiveNote Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <div class="logo">LIVENOTE</div>
+        <div class="sign-in-form">
+          <h4>Sign In</h4>
+          <form action="/home" method="POST">
+            <div class="user-details">
+              <label for="username">Username: </label>
+              <input type="text" name="username" class="login-input" />
+
+              <label for="password">Password: </label>
+              <input type="password" name="password" class="login-input" />
+            </div>
+            <div class="user-action">
+              <a href="#">Forgot password ?</a>
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
